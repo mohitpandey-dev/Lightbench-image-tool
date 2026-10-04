@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' blob: data: https://cdn.jsdelivr.net https://huggingface.co https://*.huggingface.co https://*.hf.co; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Change Background Free | Lightbench Image Tool</title>
+  <meta name="description" content="Change the background of a photo. Cut out the subject and put a new colour, gradient, picture or blur behind it. Free and private, runs in your browser.">
+  <meta property="og:site_name" content="Lightbench Image Tool">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Change Background Free | Lightbench Image Tool">
+  <meta property="og:description" content="Change the background of a photo. Cut out the subject and put a new colour, gradient, picture or blur behind it. Free and private, runs in your browser.">
+  <meta name="theme-color" content="#1d2022">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <p class="brand"><a href="index.html">Lightbench</a></p>
+      <details class="menu"><summary>All tools</summary><div class="menu-panel"><div class="g-edit"><p class="menu-title">Everyday edits</p><ul><li><a href="resize.html" target="_blank" rel="noopener">Resize</a></li><li><a href="compress.html" target="_blank" rel="noopener">Compress</a></li><li><a href="convert.html" target="_blank" rel="noopener">Convert</a></li><li><a href="crop.html" target="_blank" rel="noopener">Crop</a></li><li><a href="rotate.html" target="_blank" rel="noopener">Rotate</a></li><li><a href="background-remover.html" target="_blank" rel="noopener">Remove Background</a></li><li><a href="background-blur.html" target="_blank" rel="noopener">Blur Background</a></li><li><a href="base64.html" target="_blank" rel="noopener">To Base64</a></li></ul></div><div class="g-docs"><p class="menu-title">PDFs and layouts</p><ul><li><a href="image-to-pdf.html" target="_blank" rel="noopener">Image to PDF</a></li><li><a href="pdf-to-image.html" target="_blank" rel="noopener">PDF to Image</a></li><li><a href="compress-pdf.html" target="_blank" rel="noopener">Compress PDF</a></li><li><a href="jpg-to-pdf.html" target="_blank" rel="noopener">JPG to PDF</a></li><li><a href="png-to-pdf.html" target="_blank" rel="noopener">PNG to PDF</a></li><li><a href="screenshot-to-pdf.html" target="_blank" rel="noopener">Screenshot to PDF</a></li><li><a href="collage-maker.html" target="_blank" rel="noopener">Collage Maker</a></li><li><a href="contact-sheet.html" target="_blank" rel="noopener">Contact Sheet</a></li><li><a href="sprite-sheet.html" target="_blank" rel="noopener">Sprite Sheet</a></li></ul></div><div class="g-social"><p class="menu-title">Sizes for forms and social media</p><ul><li><a href="passport-photo-maker.html" target="_blank" rel="noopener">Passport Photo</a></li><li><a href="id-photo-maker.html" target="_blank" rel="noopener">ID Photo</a></li><li><a href="profile-picture-maker.html" target="_blank" rel="noopener">Profile Picture</a></li><li><a href="instagram-image-resizer.html" target="_blank" rel="noopener">Instagram</a></li><li><a href="youtube-thumbnail-maker.html" target="_blank" rel="noopener">YouTube Thumbnail</a></li><li><a href="facebook-cover-resizer.html" target="_blank" rel="noopener">Facebook Cover</a></li><li><a href="linkedin-image-resizer.html" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="twitter-image-resizer.html" target="_blank" rel="noopener">X / Twitter</a></li><li><a href="whatsapp-dp-maker.html" target="_blank" rel="noopener">WhatsApp DP</a></li></ul></div><div class="g-text"><p class="menu-title">Text and photo details</p><ul><li><a href="image-to-text.html" target="_blank" rel="noopener">Image to Text</a></li><li><a href="screenshot-to-text.html" target="_blank" rel="noopener">Screenshot to Text</a></li><li><a href="handwriting-to-text.html" target="_blank" rel="noopener">Handwriting to Text</a></li><li><a href="text-to-handwriting.html" target="_blank" rel="noopener">Text to Handwriting</a></li><li><a href="image-metadata-viewer.html" target="_blank" rel="noopener">Metadata Viewer</a></li><li><a href="exif-viewer.html" target="_blank" rel="noopener">EXIF Viewer</a></li><li><a href="exif-remover.html" target="_blank" rel="noopener">EXIF Remover</a></li><li><a href="image-color-picker.html" target="_blank" rel="noopener">Color Picker</a></li><li><a href="image-palette-generator.html" target="_blank" rel="noopener">Palette Generator</a></li></ul></div><div class="g-fun"><p class="menu-title">Meme Tools</p><ul><li><a href="meme-generator.html" target="_blank" rel="noopener">Meme Generator</a></li><li><a href="meme-maker.html" target="_blank" rel="noopener">Meme Maker</a></li><li><a href="add-text-to-image.html" target="_blank" rel="noopener">Add Text to Image</a></li><li><a href="meme-templates.html" target="_blank" rel="noopener">Meme Templates</a></li><li><a href="reaction-meme-maker.html" target="_blank" rel="noopener">Reaction Meme Maker</a></li><li><a href="gif-meme-maker.html" target="_blank" rel="noopener">GIF Meme Maker</a></li><li><a href="caption-generator.html" target="_blank" rel="noopener">Caption Generator</a></li><li><a href="image-to-meme.html" target="_blank" rel="noopener">Image to Meme</a></li><li><a href="demotivational-meme-maker.html" target="_blank" rel="noopener">Demotivational Meme Maker</a></li><li><a href="gif-maker.html" target="_blank" rel="noopener">GIF Maker</a></li></ul></div></div></details>
+      <p class="privacy">Nothing is uploaded</p>
+    </div>
+  </header>
+
+  <div class="wrap layout">
+    <main id="main">
+
+<section class="tool" id="tool-bgchange">
+        <div class="tool-head g-edit">
+          <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg></span>
+          <div><h1>Change image background</h1>
+          <p class="lede">Cut out a plain background and put something new behind your subject: a colour, a gradient, your own picture, or a blurred copy of the photo. It works best on photos with a clean, even background, such as ID photos, products and portraits against a wall.</p></div>
+        </div>
+
+        <label class="dropzone">
+          <input type="file" accept="image/jpeg,image/png,image/webp,image/gif">
+          <span class="dz-title">Drop an image here or choose a file</span>
+          <span class="dz-note">JPG, PNG, WebP or GIF. Nothing is uploaded. You can also paste an image.</span>
+        </label>
+        <p class="message" role="status"></p>
+
+        <div class="workspace" hidden>
+          <div class="presets bg-tools" role="group" aria-label="Tool">
+            <button class="chip" type="button" data-bc-tool="pick" aria-pressed="true">Pick colour</button>
+            <button class="chip" type="button" data-bc-tool="wand" aria-pressed="false">Magic wand</button>
+            <button class="chip" type="button" data-bc-tool="lasso" aria-pressed="false">Lasso</button>
+            <button class="chip" type="button" data-bc-tool="rect" aria-pressed="false">Box</button>
+            <button class="chip" type="button" data-bc-tool="erase" aria-pressed="false">Erase brush</button>
+            <button class="chip" type="button" data-bc-tool="restore" aria-pressed="false">Restore brush</button>
+          </div>
+          <p class="hint" id="bc-tool-tip" aria-live="polite"></p>
+
+          <figure class="stage bg-stage" id="bc-stage">
+            <div class="bg-wrap">
+              <canvas id="bc-canvas" width="400" height="300" role="img" aria-label="Your picture with the new background"></canvas>
+              <canvas id="bc-overlay" width="400" height="300" aria-hidden="true"></canvas>
+            </div>
+          </figure>
+          <p class="hint" id="bc-info"></p>
+
+          <div class="panel">
+            <h2 class="panel-title">New background</h2>
+            <div class="controls">
+              <div class="field">
+                <label for="bc-fill">Put behind the subject</label>
+                <select id="bc-fill">
+                  <option value="color" selected>A colour</option>
+                  <option value="gradient">A gradient</option>
+                  <option value="picture">My own picture</option>
+                  <option value="blur">A blurred copy of the photo</option>
+                  <option value="transparent">Nothing (transparent)</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="bc-format">Save as</label>
+                <select id="bc-format">
+                  <option value="image/png" selected>PNG</option>
+                  <option value="image/jpeg">JPG</option>
+                  <option value="image/webp">WebP</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="controls" data-bc-panel="color">
+              <div class="field">
+                <span class="field-label">Colour</span>
+                <div class="swatches">
+                  <input id="bc-fill-color" class="bg-color-input" type="color" value="#cfe3fb" aria-label="Background colour">
+                  <button class="chip" type="button" data-bc-color="#ffffff">White</button>
+                  <button class="chip" type="button" data-bc-color="#e6eaed">Light grey</button>
+                  <button class="chip" type="button" data-bc-color="#cfe3fb">Sky blue</button>
+                  <button class="chip" type="button" data-bc-color="#c8102e">Red</button>
+                  <button class="chip" type="button" data-bc-color="#2e9e5b">Green</button>
+                  <button class="chip" type="button" data-bc-color="#14181b">Black</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="controls" data-bc-panel="gradient" hidden>
+              <div class="field">
+                <label for="bc-grad-a">First colour</label>
+                <input id="bc-grad-a" class="bg-color-input" type="color" value="#6a4bd8">
+              </div>
+              <div class="field">
+                <label for="bc-grad-b">Second colour</label>
+                <input id="bc-grad-b" class="bg-color-input" type="color" value="#ff9a4a">
+              </div>
+              <div class="field">
+                <label for="bc-grad-dir">Direction</label>
+                <select id="bc-grad-dir">
+                  <option value="vertical" selected>Top to bottom</option>
+                  <option value="horizontal">Left to right</option>
+                  <option value="diagonal">Diagonal</option>
+                  <option value="radial">From the centre</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="controls" data-bc-panel="picture" hidden>
+              <div class="field">
+                <label for="bc-bg-file">Background picture</label>
+                <input id="bc-bg-file" type="file" accept="image/jpeg,image/png,image/webp,image/gif">
+              </div>
+              <div class="field">
+                <label for="bc-bg-fit">Fit</label>
+                <select id="bc-bg-fit">
+                  <option value="cover" selected>Fill the frame (crops)</option>
+                  <option value="stretch">Stretch to fit</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="controls" data-bc-panel="blur" hidden>
+              <div class="field">
+                <label for="bc-blur">Blur: <output id="bc-blur-out" for="bc-blur">12</output></label>
+                <input id="bc-blur" type="range" min="2" max="40" value="12">
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2 class="panel-title">Cut out the subject</h2>
+            <div class="controls">
+              <div class="field">
+                <label for="bc-tolerance">Tolerance (also used by the wand): <output id="bc-tolerance-out">15</output></label>
+                <input id="bc-tolerance" type="range" min="1" max="60" value="15">
+              </div>
+              <div class="field">
+                <label for="bc-trim">Edge trim: <output id="bc-trim-out">1</output> px</label>
+                <input id="bc-trim" type="range" min="0" max="5" value="1">
+              </div>
+              <div class="field">
+                <label for="bc-soft">Edge softness: <output id="bc-soft-out">1</output> px</label>
+                <input id="bc-soft" type="range" min="0" max="6" value="1">
+              </div>
+              <div class="field" id="bc-action-field" hidden>
+                <label for="bc-action">Lasso and box</label>
+                <select id="bc-action">
+                  <option value="remove" selected>Replace inside the shape</option>
+                  <option value="keep">Keep inside, replace everything else</option>
+                </select>
+              </div>
+              <div class="field" id="bc-brush-field" hidden>
+                <label for="bc-brush">Brush size: <output id="bc-brush-out">40</output></label>
+                <input id="bc-brush" type="range" min="8" max="160" value="40">
+              </div>
+            </div>
+            <div class="controls">
+              <label class="check"><input type="checkbox" id="bc-auto-on" checked> Replace the background colour automatically</label>
+              <div class="field">
+                <label for="bc-scope">Replace</label>
+                <select id="bc-scope">
+                  <option value="edges" selected>Background touching the edges</option>
+                  <option value="all">This colour everywhere</option>
+                </select>
+              </div>
+              <div class="field bg-key">
+                <span class="field-label">Detected colour</span>
+                <span class="bg-swatch" id="bc-swatch" aria-hidden="true"></span>
+              </div>
+            </div>
+            <p class="hint">Leave automatic replacement on to change a plain background in one step. For a busier background, untick it and choose exactly what to replace with the wand, lasso or box. Made a mistake? Press Undo.</p>
+          </div>
+
+          <div class="actions">
+            <button class="btn" id="bc-undo" type="button" disabled>Undo</button>
+            <button class="btn" id="bc-ai" type="button">Find the person (AI)</button>
+            <button class="btn" id="bc-auto" type="button">Use background colour instead</button>
+            <button class="btn" id="bc-original" type="button" aria-pressed="false">Show original</button>
+            <button class="btn" id="bc-clear" type="button">Clear my edits</button>
+            <button class="btn primary" id="bc-download" type="button">Download picture</button>
+          </div>
+        </div>
+      </section>
+    <article class="doc-body tool-guide" aria-label="About this tool">
+<section><h2>How to use Background changer</h2><ol><li>Add a photo. If the background is plain, it is found and replaced straight away.</li><li>Choose what goes behind the subject: a colour, a gradient, your own picture, a blurred copy of the photo, or nothing.</li><li>If part of the old background is left, click it with the Magic wand, draw around it with the Lasso, or paint over it with the Erase brush.</li><li>Use Show original to compare, then download the picture.</li></ol></section>
+<section><h2>Why use this tool</h2><p>A new background makes a photo fit its purpose: a plain white or blue one for an ID or profile photo, a clean colour for a product, or a scene for a poster. This tool does it in your browser, so your photo is never uploaded, and there is no watermark or sign-up.</p></section>
+<section><h2>What it can and cannot do</h2><p>The subject is cut out by colour, which works very well on plain backgrounds such as a wall, a sheet or a white product shot. It does not recognise people or objects the way an AI cut-out tool does, so a busy background like a street or a garden will not separate cleanly. For those photos, use the lasso to keep only the subject, or crop closer first.</p></section>
+<section><h2>Tips for best results</h2><ul><li>Photos taken against an even wall in soft light give the cleanest edge.</li><li>Use Edge trim to lose a pale halo around the subject and Edge softness to smooth a jagged outline.</li><li>For a passport or ID photo, choose White or Sky blue, and check the size rules of the place you are applying to.</li><li>Pick a background picture with a similar light direction to the subject so the result looks natural.</li><li>Save as PNG to keep a transparent background. JPG fills any empty area with white.</li></ul></section>
+<section><h2>Frequently asked questions</h2><details class="faq"><summary>Can I use my own picture as the new background?</summary><p>Yes. Choose &ldquo;My own picture&rdquo; and pick a file. It fills the frame, or you can stretch it to fit.</p></details><details class="faq"><summary>Is my photo uploaded?</summary><p>No. Everything happens in your browser and the photo stays on your device.</p></details><details class="faq"><summary>Why is some of the old background still showing?</summary><p>The background is not one even colour. Raise Tolerance, click a different part of the background with Pick colour, or paint over the leftovers with the Erase brush.</p></details><details class="faq"><summary>Why did part of my subject disappear?</summary><p>Part of the subject is close to the background colour. Lower Tolerance, or paint it back with the Restore brush.</p></details><details class="faq"><summary>What does the blurred copy option do?</summary><p>It places a blurred version of your own photo behind the subject, which gives a soft, portrait-style look without needing another picture.</p></details><details class="faq"><summary>Is the picture made smaller?</summary><p>Photos larger than 2560 px on the longest side are scaled down so that the tool stays quick on phones. Smaller pictures keep their full size.</p></details></section>
+<section><h2>Related tools</h2><ul><li><a href="background-remover.html" target="_blank" rel="noopener">Background Remover</a></li><li><a href="background-blur.html" target="_blank" rel="noopener">Background Blur</a></li><li><a href="background-changer.html" aria-current="page">Change Background</a></li><li><a href="crop.html" target="_blank" rel="noopener">Crop</a></li></ul></section>
+</article>
+    </main>
+  </div>
+  <footer class="site-foot">
+    <div class="wrap foot-inner">
+      <p>Lightbench runs in your browser. Close the tab and your photos are gone.</p>
+      <nav class="foot-links" aria-label="Site"><a href="guides.html" target="_blank" rel="noopener">Guides</a><a href="about.html" target="_blank" rel="noopener">About</a><a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a><a href="disclaimer.html" target="_blank" rel="noopener">Disclaimer</a><a href="terms.html" target="_blank" rel="noopener">Terms</a><a href="contact.html" target="_blank" rel="noopener">Contact</a><a href="index.html">See all tools</a></nav>
+      <p class="copyright">&copy; 2026 Lightbench. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="docs-core.js"></script>
+  <script src="script.js"></script>
+  <script src="docs.js"></script>
+  <script src="subject-mask.js"></script>
+  <script src="background-changer.js"></script>
+  <script src="sidebar.js"></script>
+</body>
+</html>

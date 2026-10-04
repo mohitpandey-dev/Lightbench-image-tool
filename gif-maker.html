@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' blob: data:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GIF Maker Free, Images to Animated GIF | Lightbench Image Tool</title>
+  <meta name="description" content="Turn several pictures into an animated GIF. Set the order, speed and size, preview it live, and download. Free and private, nothing is uploaded.">
+  <meta property="og:site_name" content="Lightbench Image Tool">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GIF Maker Free, Images to Animated GIF | Lightbench Image Tool">
+  <meta property="og:description" content="Turn several pictures into an animated GIF. Set the order, speed and size, preview it live, and download. Free and private, nothing is uploaded.">
+  <meta name="theme-color" content="#1d2022">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-drop="Drop your pictures to add them">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <p class="brand"><a href="index.html">Lightbench</a></p>
+      <details class="menu"><summary>All tools</summary><div class="menu-panel"><div class="g-edit"><p class="menu-title">Everyday edits</p><ul><li><a href="resize.html" target="_blank" rel="noopener">Resize</a></li><li><a href="compress.html" target="_blank" rel="noopener">Compress</a></li><li><a href="convert.html" target="_blank" rel="noopener">Convert</a></li><li><a href="crop.html" target="_blank" rel="noopener">Crop</a></li><li><a href="rotate.html" target="_blank" rel="noopener">Rotate</a></li><li><a href="background-remover.html" target="_blank" rel="noopener">Remove Background</a></li><li><a href="background-blur.html" target="_blank" rel="noopener">Blur Background</a></li><li><a href="background-changer.html" target="_blank" rel="noopener">Change Background</a></li><li><a href="base64.html" target="_blank" rel="noopener">To Base64</a></li></ul></div><div class="g-docs"><p class="menu-title">PDFs and layouts</p><ul><li><a href="image-to-pdf.html" target="_blank" rel="noopener">Image to PDF</a></li><li><a href="pdf-to-image.html" target="_blank" rel="noopener">PDF to Image</a></li><li><a href="compress-pdf.html" target="_blank" rel="noopener">Compress PDF</a></li><li><a href="jpg-to-pdf.html" target="_blank" rel="noopener">JPG to PDF</a></li><li><a href="png-to-pdf.html" target="_blank" rel="noopener">PNG to PDF</a></li><li><a href="screenshot-to-pdf.html" target="_blank" rel="noopener">Screenshot to PDF</a></li><li><a href="collage-maker.html" target="_blank" rel="noopener">Collage Maker</a></li><li><a href="contact-sheet.html" target="_blank" rel="noopener">Contact Sheet</a></li><li><a href="sprite-sheet.html" target="_blank" rel="noopener">Sprite Sheet</a></li></ul></div><div class="g-social"><p class="menu-title">Sizes for forms and social media</p><ul><li><a href="passport-photo-maker.html" target="_blank" rel="noopener">Passport Photo</a></li><li><a href="id-photo-maker.html" target="_blank" rel="noopener">ID Photo</a></li><li><a href="profile-picture-maker.html" target="_blank" rel="noopener">Profile Picture</a></li><li><a href="instagram-image-resizer.html" target="_blank" rel="noopener">Instagram</a></li><li><a href="youtube-thumbnail-maker.html" target="_blank" rel="noopener">YouTube Thumbnail</a></li><li><a href="facebook-cover-resizer.html" target="_blank" rel="noopener">Facebook Cover</a></li><li><a href="linkedin-image-resizer.html" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="twitter-image-resizer.html" target="_blank" rel="noopener">X / Twitter</a></li><li><a href="whatsapp-dp-maker.html" target="_blank" rel="noopener">WhatsApp DP</a></li></ul></div><div class="g-text"><p class="menu-title">Text and photo details</p><ul><li><a href="image-to-text.html" target="_blank" rel="noopener">Image to Text</a></li><li><a href="screenshot-to-text.html" target="_blank" rel="noopener">Screenshot to Text</a></li><li><a href="handwriting-to-text.html" target="_blank" rel="noopener">Handwriting to Text</a></li><li><a href="text-to-handwriting.html" target="_blank" rel="noopener">Text to Handwriting</a></li><li><a href="image-metadata-viewer.html" target="_blank" rel="noopener">Metadata Viewer</a></li><li><a href="exif-viewer.html" target="_blank" rel="noopener">EXIF Viewer</a></li><li><a href="exif-remover.html" target="_blank" rel="noopener">EXIF Remover</a></li><li><a href="image-color-picker.html" target="_blank" rel="noopener">Color Picker</a></li><li><a href="image-palette-generator.html" target="_blank" rel="noopener">Palette Generator</a></li></ul></div><div class="g-fun"><p class="menu-title">Meme Tools</p><ul><li><a href="meme-generator.html" target="_blank" rel="noopener">Meme Generator</a></li><li><a href="meme-maker.html" target="_blank" rel="noopener">Meme Maker</a></li><li><a href="add-text-to-image.html" target="_blank" rel="noopener">Add Text to Image</a></li><li><a href="meme-templates.html" target="_blank" rel="noopener">Meme Templates</a></li><li><a href="reaction-meme-maker.html" target="_blank" rel="noopener">Reaction Meme Maker</a></li><li><a href="gif-meme-maker.html" target="_blank" rel="noopener">GIF Meme Maker</a></li><li><a href="caption-generator.html" target="_blank" rel="noopener">Caption Generator</a></li><li><a href="image-to-meme.html" target="_blank" rel="noopener">Image to Meme</a></li><li><a href="demotivational-meme-maker.html" target="_blank" rel="noopener">Demotivational Meme Maker</a></li><li><a href="gif-maker.html" aria-current="page">GIF Maker</a></li></ul></div></div></details>
+      <p class="privacy">Nothing is uploaded</p>
+    </div>
+  </header>
+
+  <div class="wrap layout">
+    <main id="main">
+      <section class="tool" id="tool-gif">
+        <div class="tool-head g-fun">
+          <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="8" y="3" width="13" height="13" rx="2"/><path d="M4 8v11a2 2 0 0 0 2 2h11"/><path d="M13 7.5l3.5 2-3.5 2z"/></svg></span>
+          <div><h1>GIF maker</h1>
+          <p class="lede">Turn several pictures into one animated GIF. Put them in order, choose the speed, watch a live preview, then download.</p></div>
+        </div>
+
+        <label class="dropzone">
+          <input type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple>
+          <span class="dz-title">Drop pictures here or choose files</span>
+          <span class="dz-note">Each picture becomes one frame. JPG, PNG, WebP or GIF. Nothing is uploaded. You can also paste images.</span>
+        </label>
+        <p class="message" role="status"></p>
+
+        <div class="workspace" hidden>
+          <div class="filelist-bar">
+            <p class="filelist-count" aria-live="polite"></p>
+            <div class="presets">
+              <button class="chip" type="button" data-list="sort">Sort by name</button>
+              <button class="chip" type="button" data-list="reverse">Reverse</button>
+              <button class="chip" type="button" data-list="shuffle">Shuffle</button>
+              <button class="chip" type="button" data-list="clear">Clear all</button>
+            </div>
+          </div>
+          <ol class="filelist" aria-label="Frames in the order they play"></ol>
+
+          <figure class="stage preview">
+            <canvas id="gf-preview" role="img" aria-label="Live preview of the animation"></canvas>
+            <figcaption><span id="gf-preview-note"></span> <button class="chip" type="button" id="gf-play" aria-pressed="false">Pause preview</button></figcaption>
+          </figure>
+          <p class="hint" id="gf-estimate" aria-live="polite"></p>
+
+          <div class="panel">
+            <h2 class="panel-title">Size and shape</h2>
+            <div class="controls">
+              <div class="field">
+                <label for="gf-width">Width of the GIF</label>
+                <select id="gf-width">
+                  <option value="240">240 px (small)</option>
+                  <option value="320">320 px</option>
+                  <option value="480" selected>480 px</option>
+                  <option value="640">640 px</option>
+                  <option value="800">800 px</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="gf-shape">Shape</label>
+                <select id="gf-shape">
+                  <option value="first" selected>Same as the first picture</option>
+                  <option value="1">Square</option>
+                  <option value="1.3333">Landscape 4:3</option>
+                  <option value="1.7778">Wide 16:9</option>
+                  <option value="0.75">Portrait 3:4</option>
+                  <option value="0.5625">Tall 9:16</option>
+                </select>
+              </div>
+              <div class="field" id="gf-fit-field">
+                <label for="gf-fit">Picture in the frame</label>
+                <select id="gf-fit">
+                  <option value="cover" selected>Fill the frame (crops)</option>
+                  <option value="contain">Show the whole picture</option>
+                </select>
+              </div>
+              <label class="check" hidden><input type="checkbox" id="gf-transparent"> Transparent background</label>
+              <div class="field" id="gf-bg-field">
+                <span class="field-label">Background colour</span>
+                <div class="swatches">
+                  <input id="gf-bg" type="color" value="#ffffff" aria-label="Background colour">
+                  <button class="chip" type="button" data-color="#ffffff">White</button>
+                  <button class="chip" type="button" data-color="#14181b">Black</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2 class="panel-title">Speed and looping</h2>
+            <div class="controls">
+              <div class="field">
+                <label for="gf-delay">Time per frame: <output id="gf-delay-out" for="gf-delay">500</output> ms</label>
+                <input id="gf-delay" type="range" min="40" max="2000" step="10" value="500">
+              </div>
+              <div class="field">
+                <label for="gf-loops">Repeat</label>
+                <select id="gf-loops">
+                  <option value="0" selected>Forever</option>
+                  <option value="1">Play once</option>
+                  <option value="3">3 times</option>
+                  <option value="5">5 times</option>
+                </select>
+              </div>
+              <label class="check"><input type="checkbox" id="gf-pingpong"> Play forward, then backward</label>
+            </div>
+          </div>
+
+          <div class="panel">
+            <h2 class="panel-title">Quality and file size</h2>
+            <div class="controls">
+              <div class="field">
+                <label for="gf-colours">Colours</label>
+                <select id="gf-colours">
+                  <option value="256" selected>256 (best quality)</option>
+                  <option value="128">128</option>
+                  <option value="64">64 (smaller file)</option>
+                  <option value="32">32 (smallest)</option>
+                </select>
+              </div>
+              <label class="check"><input type="checkbox" id="gf-dither" checked> Smooth colour steps (dithering)</label>
+            </div>
+            <p class="hint">A GIF can only use 256 colours. Smoothing hides the banding in photos, and turning it off makes flat graphics a little smaller.</p>
+            <div class="actions">
+              <button class="btn primary" id="gf-go" type="button">Make GIF</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="result" hidden>
+          <figure class="stage">
+            <img class="img-result" alt="The finished animated GIF">
+            <figcaption class="cap-result"></figcaption>
+          </figure>
+          <div class="actions">
+            <a class="btn primary download" href="#" download>Download GIF</a>
+          </div>
+        </div>
+      </section>
+    <article class="doc-body tool-guide" aria-label="About this tool">
+<section><h2>How to use GIF maker</h2><ol><li>Add the pictures you want as frames. Each picture is one frame.</li><li>Put them in the order you want, using the arrows or the Sort and Reverse buttons.</li><li>Choose the size and the time per frame, and watch the live preview.</li><li>Make the GIF, then download it.</li></ol></section>
+<section><h2>Why use this tool</h2><p>A GIF is a small looping animation that plays almost everywhere, in chats, emails and web pages, with no player needed. This tool builds the GIF inside your browser, so your pictures are never sent to a server and the result has no watermark.</p></section>
+<section><h2>Tips for best results</h2><ul><li>Use pictures with the same shape. Otherwise choose a shape and let them fill the frame.</li><li>Keep the width around 480 px for chats and social posts. A smaller width gives a much smaller file.</li><li>For a smooth animation, use 80 to 120 ms per frame. For a slideshow, use 500 ms or more.</li><li>If the file is too big, use fewer frames, a smaller width or 64 colours.</li><li>Choose &quot;Play forward, then backward&quot; for a smooth back-and-forth loop.</li></ul></section>
+<section><h2>Frequently asked questions</h2><details class="faq"><summary>Can I use an animated GIF as a frame?</summary><p>Only its first picture is used. Add separate pictures for each frame you want.</p></details><details class="faq"><summary>Why is my GIF so big?</summary><p>GIF files store every frame, and they get large quickly with photos. Try a smaller width, fewer colours or fewer frames.</p></details><details class="faq"><summary>Can the GIF have a transparent background?</summary><p>Yes. Choose &quot;Show the whole picture&quot; and turn on Transparent background. Pictures with see-through areas, such as PNGs, will keep them.</p></details><details class="faq"><summary>Is anything uploaded?</summary><p>No. The GIF is built in your browser and your pictures stay on your device.</p></details></section>
+<section><h2>Related guides</h2><ul><li><a href="jpg-vs-png-vs-webp.html" target="_blank" rel="noopener">JPG vs PNG vs WebP: Which Should You Use?</a></li><li><a href="social-media-image-sizes.html" target="_blank" rel="noopener">Social Media Image Sizes: A Practical Cheat Sheet</a></li></ul></section>
+</article>
+    </main>
+  </div>
+
+  <footer class="site-foot">
+    <div class="wrap foot-inner">
+      <p>Lightbench runs in your browser. Close the tab and your photos are gone.</p>
+      <nav class="foot-links" aria-label="Site"><a href="guides.html" target="_blank" rel="noopener">Guides</a><a href="about.html" target="_blank" rel="noopener">About</a><a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a><a href="disclaimer.html" target="_blank" rel="noopener">Disclaimer</a><a href="terms.html" target="_blank" rel="noopener">Terms</a><a href="contact.html" target="_blank" rel="noopener">Contact</a><a href="index.html">See all tools</a></nav>
+      <p class="copyright">&copy; 2026 Lightbench. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="docs-core.js"></script>
+  <script src="script.js"></script>
+  <script src="docs.js"></script>
+  <script src="gif-maker.js"></script>
+  <script src="sidebar.js"></script>
+</body>
+</html>

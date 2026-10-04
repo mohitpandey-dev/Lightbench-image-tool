@@ -1,0 +1,14 @@
+# Security headers for Netlify and Cloudflare Pages.
+# The page-by-page Content-Security-Policy lives in each HTML file (a <meta> tag).
+# This file adds the protections a <meta> tag cannot give.
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Content-Security-Policy: frame-ancestors 'none'; base-uri 'self'; object-src 'none'
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), serial=(), bluetooth=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+/vendor/*
+  Cache-Control: public, max-age=31536000, immutable

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' blob: data:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What Is EXIF Data and Why Remove It? | Lightbench Image Tool</title>
+  <meta name="description" content="Learn what EXIF metadata is, what your photos reveal, including GPS location, and how to check and remove it before you share.">
+  <meta property="og:site_name" content="Lightbench Image Tool">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="What Is EXIF Data and Why Remove It? | Lightbench Image Tool">
+  <meta property="og:description" content="Learn what EXIF metadata is, what your photos reveal, including GPS location, and how to check and remove it before you share.">
+  <meta name="theme-color" content="#1d2022">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <p class="brand"><a href="index.html">Lightbench</a></p>
+      <details class="menu"><summary>All tools</summary><div class="menu-panel"><div class="g-edit"><p class="menu-title">Everyday edits</p><ul><li><a href="resize.html" target="_blank" rel="noopener">Resize</a></li><li><a href="compress.html" target="_blank" rel="noopener">Compress</a></li><li><a href="convert.html" target="_blank" rel="noopener">Convert</a></li><li><a href="crop.html" target="_blank" rel="noopener">Crop</a></li><li><a href="rotate.html" target="_blank" rel="noopener">Rotate</a></li><li><a href="background-remover.html" target="_blank" rel="noopener">Remove Background</a></li><li><a href="background-blur.html" target="_blank" rel="noopener">Blur Background</a></li><li><a href="background-changer.html" target="_blank" rel="noopener">Change Background</a></li><li><a href="base64.html" target="_blank" rel="noopener">To Base64</a></li></ul></div><div class="g-docs"><p class="menu-title">PDFs and layouts</p><ul><li><a href="image-to-pdf.html" target="_blank" rel="noopener">Image to PDF</a></li><li><a href="pdf-to-image.html" target="_blank" rel="noopener">PDF to Image</a></li><li><a href="compress-pdf.html" target="_blank" rel="noopener">Compress PDF</a></li><li><a href="jpg-to-pdf.html" target="_blank" rel="noopener">JPG to PDF</a></li><li><a href="png-to-pdf.html" target="_blank" rel="noopener">PNG to PDF</a></li><li><a href="screenshot-to-pdf.html" target="_blank" rel="noopener">Screenshot to PDF</a></li><li><a href="collage-maker.html" target="_blank" rel="noopener">Collage Maker</a></li><li><a href="contact-sheet.html" target="_blank" rel="noopener">Contact Sheet</a></li><li><a href="sprite-sheet.html" target="_blank" rel="noopener">Sprite Sheet</a></li></ul></div><div class="g-social"><p class="menu-title">Sizes for forms and social media</p><ul><li><a href="passport-photo-maker.html" target="_blank" rel="noopener">Passport Photo</a></li><li><a href="id-photo-maker.html" target="_blank" rel="noopener">ID Photo</a></li><li><a href="profile-picture-maker.html" target="_blank" rel="noopener">Profile Picture</a></li><li><a href="instagram-image-resizer.html" target="_blank" rel="noopener">Instagram</a></li><li><a href="youtube-thumbnail-maker.html" target="_blank" rel="noopener">YouTube Thumbnail</a></li><li><a href="facebook-cover-resizer.html" target="_blank" rel="noopener">Facebook Cover</a></li><li><a href="linkedin-image-resizer.html" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="twitter-image-resizer.html" target="_blank" rel="noopener">X / Twitter</a></li><li><a href="whatsapp-dp-maker.html" target="_blank" rel="noopener">WhatsApp DP</a></li></ul></div><div class="g-text"><p class="menu-title">Text and photo details</p><ul><li><a href="image-to-text.html" target="_blank" rel="noopener">Image to Text</a></li><li><a href="screenshot-to-text.html" target="_blank" rel="noopener">Screenshot to Text</a></li><li><a href="handwriting-to-text.html" target="_blank" rel="noopener">Handwriting to Text</a></li><li><a href="text-to-handwriting.html" target="_blank" rel="noopener">Text to Handwriting</a></li><li><a href="image-metadata-viewer.html" target="_blank" rel="noopener">Metadata Viewer</a></li><li><a href="exif-viewer.html" target="_blank" rel="noopener">EXIF Viewer</a></li><li><a href="exif-remover.html" target="_blank" rel="noopener">EXIF Remover</a></li><li><a href="image-color-picker.html" target="_blank" rel="noopener">Color Picker</a></li><li><a href="image-palette-generator.html" target="_blank" rel="noopener">Palette Generator</a></li></ul></div><div class="g-fun"><p class="menu-title">Meme Tools</p><ul><li><a href="meme-generator.html" target="_blank" rel="noopener">Meme Generator</a></li><li><a href="meme-maker.html" target="_blank" rel="noopener">Meme Maker</a></li><li><a href="add-text-to-image.html" target="_blank" rel="noopener">Add Text to Image</a></li><li><a href="meme-templates.html" target="_blank" rel="noopener">Meme Templates</a></li><li><a href="reaction-meme-maker.html" target="_blank" rel="noopener">Reaction Meme Maker</a></li><li><a href="gif-meme-maker.html" target="_blank" rel="noopener">GIF Meme Maker</a></li><li><a href="caption-generator.html" target="_blank" rel="noopener">Caption Generator</a></li><li><a href="image-to-meme.html" target="_blank" rel="noopener">Image to Meme</a></li><li><a href="demotivational-meme-maker.html" target="_blank" rel="noopener">Demotivational Meme Maker</a></li><li><a href="gif-maker.html" target="_blank" rel="noopener">GIF Maker</a></li></ul></div></div></details>
+      <p class="privacy">Nothing is uploaded</p>
+    </div>
+  </header>
+
+  <div class="wrap layout">
+    <main id="main">
+
+      <header class="doc-hero g-edit"><span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 5a2 2 0 0 1 2-2h12v16H6a2 2 0 0 0-2 2z"/><path d="M4 21V5M9 7h5M9 11h5"/></svg></span><div><h1>What Is EXIF Data and Why You Should Remove It Before Sharing Photos</h1><p class="doc-lede">Every photo from a camera or phone carries an invisible layer of information. Here is what it contains and how to take control of it.</p></div></header>
+
+      <div class="doc-layout is-single">
+        <article class="doc-body">
+          <section aria-labelledby="s0"><h2 id="s0">What EXIF data is</h2><p>EXIF stands for Exchangeable image file format. It is a block of metadata that a camera or phone writes into the picture file next to the image itself. You do not see it when you look at the photo, but software can read it.</p></section>
+          <section aria-labelledby="s1"><h2 id="s1">What a photo can reveal</h2><ul><li>The camera or phone make and model, and the lens.</li><li>Exposure settings such as shutter speed, aperture and ISO.</li><li>The date and time the picture was taken.</li><li>The orientation of the picture.</li><li>The <strong>GPS coordinates</strong> of where it was taken, if location tagging was on.</li><li>The name of the editing software, if it was edited.</li></ul></section>
+          <section aria-labelledby="s2"><h2 id="s2">Why it matters for privacy</h2><p>The location is the important part. A photo taken at home and shared with the coordinates still inside can tell a stranger where you live. Photos of children, a new car, a workplace or a valuable item can leak the place they are in the same way.</p><p>Some big platforms hide or remove location data from public view when you post, but policies differ and can change, and files sent by email, chat links, forums or cloud sharing may keep everything. The safest habit is to remove the data yourself.</p></section>
+          <section aria-labelledby="s3"><h2 id="s3">How to check what a photo contains</h2><p>Drop the file into the <a href="exif-viewer.html" target="_blank" rel="noopener">EXIF viewer</a> or the <a href="image-metadata-viewer.html" target="_blank" rel="noopener">image metadata viewer</a>. If you see a GPS section with coordinates, the picture carries a location.</p></section>
+          <section aria-labelledby="s4"><h2 id="s4">How to remove it</h2><p>Use the <a href="exif-remover.html" target="_blank" rel="noopener">EXIF remover</a> to produce a clean copy of the photo. The picture looks exactly the same. Afterwards, open the clean file in the viewer to confirm the data is gone. Share the clean copy and keep the original.</p></section>
+          <section aria-labelledby="s5"><h2 id="s5">What removal does not hide</h2><ul><li>Anything visible in the picture: street signs, landmarks, house numbers or reflections.</li><li>The file name, if it contains a place or a person.</li></ul></section>
+          <section aria-labelledby="s6"><h2 id="s6">Turn it off at the source</h2><p>You can stop the problem at the beginning by turning off location tagging in your phone camera settings. Do this if you rarely need your photos to remember where they were taken.</p></section>
+          <section aria-labelledby="s7"><h2 id="s7">Is EXIF data ever useful?</h2><p>Yes. Photographers study the settings of a good shot to learn from it, and the date and time help sort a large library. EXIF is a tool. You just want to decide who sees it. Remember that it can be edited, so it is a clue and not proof.</p></section>
+          <section aria-labelledby="faq"><h2 id="faq">Frequently asked questions</h2><details class="faq"><summary>Do screenshots have EXIF data?</summary><p>They usually carry very little, and no location. Photos taken with a camera app are the ones that often include GPS.</p></details><details class="faq"><summary>Does WhatsApp or Instagram remove it?</summary><p>Many apps remove or hide location data from what other people see, but behaviour differs between apps and versions. Do not depend on it for anything sensitive.</p></details><details class="faq"><summary>Will removing EXIF reduce picture quality?</summary><p>No. Only the hidden information is removed. The picture is unchanged.</p></details><details class="faq"><summary>Can I add my own EXIF data back?</summary><p>Specialist software can edit it. For privacy, a clean file without it is normally the goal.</p></details></section>
+        </article>
+      </div>
+
+      <h2 class="sr-only">Related tools</h2><nav class="related" aria-label="Related"><a class="related-card" href="exif-viewer.html" target="_blank" rel="noopener"><span class="related-title">EXIF viewer</span></a><a class="related-card" href="exif-remover.html" target="_blank" rel="noopener"><span class="related-title">EXIF remover</span></a><a class="related-card" href="image-metadata-viewer.html" target="_blank" rel="noopener"><span class="related-title">Image metadata viewer</span></a></nav>
+
+    </main>
+  </div>
+
+  <footer class="site-foot">
+    <div class="wrap foot-inner">
+      <p>Lightbench runs in your browser. Close the tab and your photos are gone.</p>
+      <nav class="foot-links" aria-label="Site"><a href="guides.html" target="_blank" rel="noopener">Guides</a><a href="about.html" target="_blank" rel="noopener">About</a><a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a><a href="disclaimer.html" target="_blank" rel="noopener">Disclaimer</a><a href="terms.html" target="_blank" rel="noopener">Terms</a><a href="contact.html" target="_blank" rel="noopener">Contact</a><a href="index.html">See all tools</a></nav>
+      <p class="copyright">&copy; 2026 Lightbench. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="sidebar.js"></script>
+</body>
+</html>

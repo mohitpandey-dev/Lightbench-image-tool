@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' blob: data:; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Sheet Maker Free | Lightbench Image Tool</title>
+  <meta name="description" content="Make a printable contact sheet of thumbnails with file names and page numbers. Save as PDF, PNG or JPG. Free and private.">
+  <meta property="og:site_name" content="Lightbench Image Tool">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact Sheet Maker Free | Lightbench Image Tool">
+  <meta property="og:description" content="Make a printable contact sheet of thumbnails with file names and page numbers. Save as PDF, PNG or JPG. Free and private.">
+  <meta name="theme-color" content="#1d2022">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-drop="Drop your photos to add them">
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <p class="brand"><a href="index.html">Lightbench</a></p>
+      <details class="menu"><summary>All tools</summary><div class="menu-panel"><div class="g-edit"><p class="menu-title">Everyday edits</p><ul><li><a href="resize.html" target="_blank" rel="noopener">Resize</a></li><li><a href="compress.html" target="_blank" rel="noopener">Compress</a></li><li><a href="convert.html" target="_blank" rel="noopener">Convert</a></li><li><a href="crop.html" target="_blank" rel="noopener">Crop</a></li><li><a href="rotate.html" target="_blank" rel="noopener">Rotate</a></li><li><a href="background-remover.html" target="_blank" rel="noopener">Remove Background</a></li><li><a href="background-blur.html" target="_blank" rel="noopener">Blur Background</a></li><li><a href="background-changer.html" target="_blank" rel="noopener">Change Background</a></li><li><a href="base64.html" target="_blank" rel="noopener">To Base64</a></li></ul></div><div class="g-docs"><p class="menu-title">PDFs and layouts</p><ul><li><a href="image-to-pdf.html" target="_blank" rel="noopener">Image to PDF</a></li><li><a href="pdf-to-image.html" target="_blank" rel="noopener">PDF to Image</a></li><li><a href="compress-pdf.html" target="_blank" rel="noopener">Compress PDF</a></li><li><a href="jpg-to-pdf.html" target="_blank" rel="noopener">JPG to PDF</a></li><li><a href="png-to-pdf.html" target="_blank" rel="noopener">PNG to PDF</a></li><li><a href="screenshot-to-pdf.html" target="_blank" rel="noopener">Screenshot to PDF</a></li><li><a href="collage-maker.html" target="_blank" rel="noopener">Collage Maker</a></li><li><a href="contact-sheet.html" aria-current="page">Contact Sheet</a></li><li><a href="sprite-sheet.html" target="_blank" rel="noopener">Sprite Sheet</a></li></ul></div><div class="g-social"><p class="menu-title">Sizes for forms and social media</p><ul><li><a href="passport-photo-maker.html" target="_blank" rel="noopener">Passport Photo</a></li><li><a href="id-photo-maker.html" target="_blank" rel="noopener">ID Photo</a></li><li><a href="profile-picture-maker.html" target="_blank" rel="noopener">Profile Picture</a></li><li><a href="instagram-image-resizer.html" target="_blank" rel="noopener">Instagram</a></li><li><a href="youtube-thumbnail-maker.html" target="_blank" rel="noopener">YouTube Thumbnail</a></li><li><a href="facebook-cover-resizer.html" target="_blank" rel="noopener">Facebook Cover</a></li><li><a href="linkedin-image-resizer.html" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="twitter-image-resizer.html" target="_blank" rel="noopener">X / Twitter</a></li><li><a href="whatsapp-dp-maker.html" target="_blank" rel="noopener">WhatsApp DP</a></li></ul></div><div class="g-text"><p class="menu-title">Text and photo details</p><ul><li><a href="image-to-text.html" target="_blank" rel="noopener">Image to Text</a></li><li><a href="screenshot-to-text.html" target="_blank" rel="noopener">Screenshot to Text</a></li><li><a href="handwriting-to-text.html" target="_blank" rel="noopener">Handwriting to Text</a></li><li><a href="text-to-handwriting.html" target="_blank" rel="noopener">Text to Handwriting</a></li><li><a href="image-metadata-viewer.html" target="_blank" rel="noopener">Metadata Viewer</a></li><li><a href="exif-viewer.html" target="_blank" rel="noopener">EXIF Viewer</a></li><li><a href="exif-remover.html" target="_blank" rel="noopener">EXIF Remover</a></li><li><a href="image-color-picker.html" target="_blank" rel="noopener">Color Picker</a></li><li><a href="image-palette-generator.html" target="_blank" rel="noopener">Palette Generator</a></li></ul></div><div class="g-fun"><p class="menu-title">Meme Tools</p><ul><li><a href="meme-generator.html" target="_blank" rel="noopener">Meme Generator</a></li><li><a href="meme-maker.html" target="_blank" rel="noopener">Meme Maker</a></li><li><a href="add-text-to-image.html" target="_blank" rel="noopener">Add Text to Image</a></li><li><a href="meme-templates.html" target="_blank" rel="noopener">Meme Templates</a></li><li><a href="reaction-meme-maker.html" target="_blank" rel="noopener">Reaction Meme Maker</a></li><li><a href="gif-meme-maker.html" target="_blank" rel="noopener">GIF Meme Maker</a></li><li><a href="caption-generator.html" target="_blank" rel="noopener">Caption Generator</a></li><li><a href="image-to-meme.html" target="_blank" rel="noopener">Image to Meme</a></li><li><a href="demotivational-meme-maker.html" target="_blank" rel="noopener">Demotivational Meme Maker</a></li><li><a href="gif-maker.html" target="_blank" rel="noopener">GIF Maker</a></li></ul></div></div></details>
+      <p class="privacy">Nothing is uploaded</p>
+    </div>
+  </header>
+
+  <div class="wrap layout">
+    <main id="main">
+
+      <section class="tool" id="tool-contact-sheet">
+        <div class="tool-head g-docs">
+          <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="3" y="4" width="5" height="6" rx="1"/><rect x="9.5" y="4" width="5" height="6" rx="1"/><rect x="16" y="4" width="5" height="6" rx="1"/><rect x="3" y="14" width="5" height="6" rx="1"/><rect x="9.5" y="14" width="5" height="6" rx="1"/><rect x="16" y="14" width="5" height="6" rx="1"/></svg></span>
+          <div><h1>Contact sheet maker</h1>
+          <p class="lede">Print a page of thumbnails, with file names and page numbers. Good for reviewing a shoot or sharing a set of photos.</p></div>
+        </div>
+
+        <label class="dropzone">
+          <input type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple>
+          <span class="dz-title">Drop photos here or choose files</span>
+          <span class="dz-note">JPG, PNG, WebP or GIF. Nothing is uploaded. You can also paste images.</span>
+        </label>
+        <p class="message" role="status"></p>
+
+        <div class="workspace" hidden>
+        <div class="filelist-bar">
+          <p class="filelist-count" aria-live="polite"></p>
+          <div class="presets">
+            <button class="chip" type="button" data-list="sort">Sort by name</button>
+            <button class="chip" type="button" data-list="reverse">Reverse</button>
+            <button class="chip" type="button" data-list="shuffle">Shuffle</button>
+            <button class="chip" type="button" data-list="clear">Clear all</button>
+          </div>
+        </div>
+        <ol class="filelist" aria-label="Photos in the order they are used"></ol>
+
+          <div class="controls">
+            <div class="field">
+              <label for="cs-title">Title (optional)</label>
+              <input id="cs-title" type="text" placeholder="For example, Lisbon trip">
+            </div>
+            <div class="field">
+              <label for="cs-paper">Paper</label>
+              <select id="cs-paper">
+                <option value="a4" selected>A4</option>
+                <option value="letter">US Letter</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="cs-orient">Orientation</label>
+              <select id="cs-orient">
+                <option value="portrait" selected>Portrait</option>
+                <option value="landscape">Landscape</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="cs-theme">Look</label>
+              <select id="cs-theme">
+                <option value="light" selected>Light paper</option>
+                <option value="dark">Dark paper</option>
+              </select>
+            </div>
+          </div>
+          <div class="controls">
+            <div class="field">
+              <label for="cs-cols">Columns: <output id="cs-cols-out">4</output></label>
+              <input id="cs-cols" type="range" min="1" max="8" value="4">
+            </div>
+            <div class="field">
+              <label for="cs-rows">Rows: <output id="cs-rows-out">5</output></label>
+              <input id="cs-rows" type="range" min="1" max="10" value="5">
+            </div>
+            <div class="field">
+              <label for="cs-gap">Gap: <output id="cs-gap-out">8</output></label>
+              <input id="cs-gap" type="range" min="0" max="30" value="8">
+            </div>
+            <div class="field">
+              <label for="cs-fit">Photo in cell</label>
+              <select id="cs-fit">
+                <option value="contain" selected>Show the whole photo</option>
+                <option value="cover">Fill the cell (crops)</option>
+              </select>
+            </div>
+            <label class="check"><input id="cs-names" type="checkbox" checked> File names</label>
+            <label class="check"><input id="cs-numbers" type="checkbox" checked> Page numbers</label>
+          </div>
+
+          <figure class="stage preview">
+            <canvas id="cs-preview" role="img" aria-label="Preview of the contact sheet"></canvas>
+            <div class="pager">
+              <button class="chip" id="cs-prev" type="button">Previous page</button>
+              <span id="cs-page-label" aria-live="polite"></span>
+              <button class="chip" id="cs-next" type="button">Next page</button>
+            </div>
+          </figure>
+
+          <div class="controls">
+            <div class="field">
+              <label for="cs-output">Save as</label>
+              <select id="cs-output">
+                <option value="pdf" selected>PDF</option>
+                <option value="png">PNG images</option>
+                <option value="jpg">JPG images</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="cs-dpi">Sharpness</label>
+              <select id="cs-dpi">
+                <option value="100">100 dpi, small</option>
+                <option value="150" selected>150 dpi</option>
+                <option value="200">200 dpi</option>
+                <option value="300">300 dpi, good for print</option>
+              </select>
+            </div>
+          </div>
+          <div class="actions">
+            <button class="btn primary" id="cs-go" type="button">Make contact sheet</button>
+          </div>
+        </div>
+
+        <div class="result" hidden>
+          <p class="result-summary" role="status"></p>
+          <div class="pages" hidden></div>
+          <div class="actions">
+            <a class="btn primary download" href="#" download>Download</a>
+            <a class="btn open-link" href="#" target="_blank" rel="noopener" hidden>Open in a new tab</a>
+          </div>
+        </div>
+      </section>
+    <article class="doc-body tool-guide" aria-label="About this tool">
+<section><h2>How to use Contact sheet maker</h2><ol><li>Add all the photos you want to review.</li><li>Choose how many thumbnails fit on each page.</li><li>Turn file names and page numbers on or off.</li><li>Create the sheet and print or save it.</li></ol></section>
+<section><h2>Why use this tool</h2><p>A contact sheet shows many small thumbnails on one page, the way photographers have reviewed a roll of film for decades. It is ideal for picking the best shots from a shoot, sharing a whole set with a client, or keeping a printable index of a folder.</p></section>
+<section><h2>Tips for best results</h2><ul><li>Include file names so people can tell you exactly which picture they want.</li><li>Use a larger thumbnail size when you need to judge sharpness.</li><li>Print on A4 or Letter paper at actual size for the best layout.</li></ul></section>
+<section><h2>Frequently asked questions</h2><details class="faq"><summary>What is a contact sheet used for?</summary><p>It is used to review and choose from many photos at a glance, and to keep a printed index of a set.</p></details><details class="faq"><summary>Can I save it as a PDF?</summary><p>You can print the page and choose Save as PDF in your browser print dialog.</p></details><details class="faq"><summary>Are my photos uploaded?</summary><p>No. The sheet is built on your device.</p></details></section>
+<section><h2>Related guides</h2><ul><li><a href="photos-to-one-pdf.html" target="_blank" rel="noopener">How to Turn Photos and Screenshots Into One PDF</a></li></ul></section>
+</article>
+    </main>
+  </div>
+
+  <footer class="site-foot">
+    <div class="wrap foot-inner">
+      <p>Lightbench runs in your browser. Close the tab and your photos are gone.</p>
+      <nav class="foot-links" aria-label="Site"><a href="guides.html" target="_blank" rel="noopener">Guides</a><a href="about.html" target="_blank" rel="noopener">About</a><a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a><a href="disclaimer.html" target="_blank" rel="noopener">Disclaimer</a><a href="terms.html" target="_blank" rel="noopener">Terms</a><a href="contact.html" target="_blank" rel="noopener">Contact</a><a href="index.html">See all tools</a></nav>
+      <p class="copyright">&copy; 2026 Lightbench. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="docs-core.js"></script>
+  <script src="script.js"></script>
+  <script src="docs.js"></script>
+  <script src="sidebar.js"></script>
+</body>
+</html>

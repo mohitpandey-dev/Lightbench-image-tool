@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self' blob: data: https://cdn.jsdelivr.net https://tessdata.projectnaptha.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Handwriting to Text Free | Lightbench Image Tool</title>
+  <meta name="description" content="Try to read handwritten notes into editable text. Free and private, runs in your browser.">
+  <meta property="og:site_name" content="Lightbench Image Tool">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Handwriting to Text Free | Lightbench Image Tool">
+  <meta property="og:description" content="Try to read handwritten notes into editable text. Free and private, runs in your browser.">
+  <meta name="theme-color" content="#1d2022">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="site-head">
+    <div class="wrap head-inner">
+      <p class="brand"><a href="index.html">Lightbench</a></p>
+      <details class="menu"><summary>All tools</summary><div class="menu-panel"><div class="g-edit"><p class="menu-title">Everyday edits</p><ul><li><a href="resize.html" target="_blank" rel="noopener">Resize</a></li><li><a href="compress.html" target="_blank" rel="noopener">Compress</a></li><li><a href="convert.html" target="_blank" rel="noopener">Convert</a></li><li><a href="crop.html" target="_blank" rel="noopener">Crop</a></li><li><a href="rotate.html" target="_blank" rel="noopener">Rotate</a></li><li><a href="background-remover.html" target="_blank" rel="noopener">Remove Background</a></li><li><a href="background-blur.html" target="_blank" rel="noopener">Blur Background</a></li><li><a href="background-changer.html" target="_blank" rel="noopener">Change Background</a></li><li><a href="base64.html" target="_blank" rel="noopener">To Base64</a></li></ul></div><div class="g-docs"><p class="menu-title">PDFs and layouts</p><ul><li><a href="image-to-pdf.html" target="_blank" rel="noopener">Image to PDF</a></li><li><a href="pdf-to-image.html" target="_blank" rel="noopener">PDF to Image</a></li><li><a href="compress-pdf.html" target="_blank" rel="noopener">Compress PDF</a></li><li><a href="jpg-to-pdf.html" target="_blank" rel="noopener">JPG to PDF</a></li><li><a href="png-to-pdf.html" target="_blank" rel="noopener">PNG to PDF</a></li><li><a href="screenshot-to-pdf.html" target="_blank" rel="noopener">Screenshot to PDF</a></li><li><a href="collage-maker.html" target="_blank" rel="noopener">Collage Maker</a></li><li><a href="contact-sheet.html" target="_blank" rel="noopener">Contact Sheet</a></li><li><a href="sprite-sheet.html" target="_blank" rel="noopener">Sprite Sheet</a></li></ul></div><div class="g-social"><p class="menu-title">Sizes for forms and social media</p><ul><li><a href="passport-photo-maker.html" target="_blank" rel="noopener">Passport Photo</a></li><li><a href="id-photo-maker.html" target="_blank" rel="noopener">ID Photo</a></li><li><a href="profile-picture-maker.html" target="_blank" rel="noopener">Profile Picture</a></li><li><a href="instagram-image-resizer.html" target="_blank" rel="noopener">Instagram</a></li><li><a href="youtube-thumbnail-maker.html" target="_blank" rel="noopener">YouTube Thumbnail</a></li><li><a href="facebook-cover-resizer.html" target="_blank" rel="noopener">Facebook Cover</a></li><li><a href="linkedin-image-resizer.html" target="_blank" rel="noopener">LinkedIn</a></li><li><a href="twitter-image-resizer.html" target="_blank" rel="noopener">X / Twitter</a></li><li><a href="whatsapp-dp-maker.html" target="_blank" rel="noopener">WhatsApp DP</a></li></ul></div><div class="g-text"><p class="menu-title">Text and photo details</p><ul><li><a href="image-to-text.html" target="_blank" rel="noopener">Image to Text</a></li><li><a href="screenshot-to-text.html" target="_blank" rel="noopener">Screenshot to Text</a></li><li><a href="handwriting-to-text.html" aria-current="page">Handwriting to Text</a></li><li><a href="text-to-handwriting.html" target="_blank" rel="noopener">Text to Handwriting</a></li><li><a href="image-metadata-viewer.html" target="_blank" rel="noopener">Metadata Viewer</a></li><li><a href="exif-viewer.html" target="_blank" rel="noopener">EXIF Viewer</a></li><li><a href="exif-remover.html" target="_blank" rel="noopener">EXIF Remover</a></li><li><a href="image-color-picker.html" target="_blank" rel="noopener">Color Picker</a></li><li><a href="image-palette-generator.html" target="_blank" rel="noopener">Palette Generator</a></li></ul></div><div class="g-fun"><p class="menu-title">Meme Tools</p><ul><li><a href="meme-generator.html" target="_blank" rel="noopener">Meme Generator</a></li><li><a href="meme-maker.html" target="_blank" rel="noopener">Meme Maker</a></li><li><a href="add-text-to-image.html" target="_blank" rel="noopener">Add Text to Image</a></li><li><a href="meme-templates.html" target="_blank" rel="noopener">Meme Templates</a></li><li><a href="reaction-meme-maker.html" target="_blank" rel="noopener">Reaction Meme Maker</a></li><li><a href="gif-meme-maker.html" target="_blank" rel="noopener">GIF Meme Maker</a></li><li><a href="caption-generator.html" target="_blank" rel="noopener">Caption Generator</a></li><li><a href="image-to-meme.html" target="_blank" rel="noopener">Image to Meme</a></li><li><a href="demotivational-meme-maker.html" target="_blank" rel="noopener">Demotivational Meme Maker</a></li><li><a href="gif-maker.html" target="_blank" rel="noopener">GIF Maker</a></li></ul></div></div></details>
+      <p class="privacy">Nothing is uploaded</p>
+    </div>
+  </header>
+
+  <div class="wrap layout">
+    <main id="main">
+
+<section class="tool" id="tool-ocr-handwriting" data-ocr-tool="1" data-ocr-psm="6">
+        <div class="tool-head g-text">
+          <span class="card-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M17 3l4 4L8 20l-5 1 1-5z"/><path d="M14 6l4 4"/></svg></span>
+          <div><h1>Handwriting to text</h1>
+          <p class="lede">Try to read a handwritten note into text you can edit. Handwriting is much harder to read automatically than print, so check the result carefully.</p></div>
+        </div>
+
+        <label class="dropzone">
+          <input type="file" accept="image/jpeg,image/png,image/webp,image/gif">
+          <span class="dz-title">Drop an image here or choose a file</span>
+          <span class="dz-note">JPG, PNG, WebP or GIF. Nothing is uploaded. You can also paste an image.</span>
+        </label>
+        <p class="message" role="status"></p>
+
+        <div class="workspace" hidden>
+          <figure class="stage">
+            <img id="ocr-preview" alt="Selected image">
+          </figure>
+
+          <p class="hint">The first time you recognise text, your browser downloads a small recognition engine and language file, so it needs an internet connection. After that it is cached for next time.</p>
+
+          <div class="controls">
+            <div class="field">
+              <label for="ocr-lang">Language</label>
+              <select id="ocr-lang"><option value="eng" selected>English</option><option value="spa">Spanish</option><option value="fra">French</option><option value="deu">German</option><option value="por">Portuguese</option><option value="ita">Italian</option><option value="nld">Dutch</option><option value="rus">Russian</option><option value="tur">Turkish</option><option value="ara">Arabic</option><option value="hin">Hindi</option><option value="chi_sim">Chinese (Simplified)</option><option value="jpn">Japanese</option><option value="kor">Korean</option><option value="vie">Vietnamese</option></select>
+            </div>
+            <div class="field">
+              <label for="ocr-mode">Layout</label>
+              <select id="ocr-mode">
+                <option value="3">Automatic</option>
+                <option value="4">Single column</option>
+                <option value="6">Single block of text</option>
+                <option value="7">Single line</option>
+                <option value="11">Sparse text</option>
+              </select>
+            </div>
+          </div>
+          <p class="hint">This works best on clear, printed (non-cursive) handwriting, dark ink on plain paper, and one paragraph at a time.</p>
+
+          <div class="actions">
+            <button class="btn primary" id="ocr-go" type="button">Recognise text</button>
+          </div>
+
+          <div class="panel" id="ocr-result" hidden>
+            <h2 class="panel-title">Recognised text</h2>
+            <textarea id="ocr-output" rows="10" aria-label="Recognised text" spellcheck="false"></textarea>
+            <p class="hint" id="ocr-stats"></p>
+            <div class="actions">
+              <button class="btn primary" id="ocr-copy" type="button">Copy text</button>
+              <a class="btn" id="ocr-download" href="#" download>Download .txt</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    <article class="doc-body tool-guide" aria-label="About this tool">
+<section><h2>How to use Handwriting to text</h2><ol><li>Add a clear photo of the handwritten note.</li><li>Run the reader and wait for the result.</li><li>Correct the words it got wrong.</li><li>Copy the text to wherever you need it.</li></ol></section>
+<section><h2>Why use this tool</h2><p>Handwriting is much harder for a computer to read than print, because every person forms letters differently. This tool gives it a try, which is often enough to get most of a note into editable form, but you should expect to fix some words.</p></section>
+<section><h2>Tips for best results</h2><ul><li>Neat block letters in dark ink on plain paper give the best results.</li><li>Photograph the page in daylight, flat and straight on.</li><li>Treat the output as a first draft and read it against the original.</li></ul></section>
+<section><h2>Frequently asked questions</h2><details class="faq"><summary>Why is handwriting so inaccurate?</summary><p>Joined-up writing, slants and personal styles vary far more than printed fonts.</p></details><details class="faq"><summary>Will it work on my cursive?</summary><p>Cursive is the hardest case. Expect many mistakes.</p></details><details class="faq"><summary>Is my note uploaded?</summary><p>No. It is read in your browser and stays on your device.</p></details></section>
+<section><h2>Related guides</h2><ul><li><a href="extract-text-from-image.html" target="_blank" rel="noopener">How to Extract Text From an Image (OCR Tips That Work)</a></li></ul></section>
+</article>
+    </main>
+  </div>
+
+  <footer class="site-foot">
+    <div class="wrap foot-inner">
+      <p>Lightbench runs in your browser. Close the tab and your photos are gone.</p>
+      <nav class="foot-links" aria-label="Site"><a href="guides.html" target="_blank" rel="noopener">Guides</a><a href="about.html" target="_blank" rel="noopener">About</a><a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a><a href="disclaimer.html" target="_blank" rel="noopener">Disclaimer</a><a href="terms.html" target="_blank" rel="noopener">Terms</a><a href="contact.html" target="_blank" rel="noopener">Contact</a><a href="index.html">See all tools</a></nav>
+      <p class="copyright">&copy; 2026 Lightbench. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js"></script>
+  <script src="script.js"></script>
+  <script src="ocr.js"></script>
+  <script src="sidebar.js"></script>
+</body>
+</html>
