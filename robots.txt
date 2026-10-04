@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-DOMAIN.com/sitemap.xml
+Sitemap: https://lightbench-image-tool.pages.dev/sitemap.xml
